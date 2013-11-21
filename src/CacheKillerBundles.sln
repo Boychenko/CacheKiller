@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheKiller.Bundles", "CacheKiller.Bundles\CacheKiller.Bundles.csproj", "{288ACA08-EB8B-4E94-9311-6330C5B6584E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheKiller", "CacheKiller\CacheKiller.csproj", "{6BF9CD4E-8591-4D25-93F2-481946BC356D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288ACA08-EB8B-4E94-9311-6330C5B6584E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288ACA08-EB8B-4E94-9311-6330C5B6584E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288ACA08-EB8B-4E94-9311-6330C5B6584E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288ACA08-EB8B-4E94-9311-6330C5B6584E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF9CD4E-8591-4D25-93F2-481946BC356D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF9CD4E-8591-4D25-93F2-481946BC356D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF9CD4E-8591-4D25-93F2-481946BC356D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF9CD4E-8591-4D25-93F2-481946BC356D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

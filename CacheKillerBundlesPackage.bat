@@ -1,0 +1,1 @@
+nuget\nuget pack src\CacheKiller.Bundles\CacheKiller.Bundles.csproj -Prop Configuration=Release
