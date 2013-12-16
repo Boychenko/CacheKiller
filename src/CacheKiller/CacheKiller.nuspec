@@ -8,6 +8,7 @@
         <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
         <projectUrl>https://github.com/Boychenko/CacheKiller</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<title>CacheKiller</title>
         <description>Easy way to prevent caching script ans style files be cached by browser if they already changed. And not preventing caching if they stay same.</description>
 		<tags>cachekill cachekiller web</tags>
         <language>en-US</language>
