@@ -2,15 +2,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>CacheKiller</id>
-        <version>0.1</version>
+        <version>0.1.1</version>
         <authors>Alexander Boychenko</authors>
         <owners>boychenko</owners>
         <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
         <projectUrl>https://github.com/Boychenko/CacheKiller</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<title>CacheKiller</title>
-        <description>Easy way to prevent caching script ans style files be cached by browser if they already changed. And not preventing caching if they stay same.</description>
-		<tags>cachekill cachekiller web</tags>
+        <description>An easy way to prevent caching of js and css files by browser if they are changed.</description>
+		<tags>cachekill cachekiller web cache killer kill</tags>
         <language>en-US</language>
     </metadata>
     <files />

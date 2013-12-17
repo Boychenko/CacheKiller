@@ -2,7 +2,7 @@
 
 ## Purpose
 ###CacheKiller
-Easy way to prevent caching script ans styles files be cached by browser if they already changed. And not preventing caching if they stay same.
+An easy way to prevent caching of js and css files by browser if they are changed.
 ###CacheKiller.Bundles
 Prevent bundle files to be cached in case otpimization is turned of. Also allow to turn of optimization for particular bundle.
 

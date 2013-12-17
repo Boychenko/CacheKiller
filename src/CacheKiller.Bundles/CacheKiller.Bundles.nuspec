@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>CacheKiller.Bundles</id>
-        <version>0.1</version>
+        <version>0.1.1</version>
         <authors>Alexander Boychenko</authors>
         <owners>boychenko</owners>
         <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
