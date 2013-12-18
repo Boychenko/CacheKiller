@@ -4,7 +4,7 @@
 ###CacheKiller
 An easy way to prevent caching of js and css files by browser if they are changed.
 ###CacheKiller.Bundles
-Prevent bundle files to be cached in case otpimization is turned of. Also allow to turn of optimization for particular bundle.
+Prevent bundle files to be cached in case otpimization is turned off. Also allow to turn of optimization for particular bundle.
 
 Be carefull if you use any specific debug transformations in debug time they will not be applyed.
 
