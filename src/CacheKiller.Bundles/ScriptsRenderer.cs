@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using System;
+using System.Web;
 using System.Web.Optimization;
 
 namespace CacheKiller.Bundles
@@ -27,14 +28,16 @@ namespace CacheKiller.Bundles
 
         public static IHtmlString Render(string formatString, bool turnOffOptimization, params string[] paths)
         {
-            if(!turnOffOptimization)
+            Func<string, IHtmlString> renderAction;
+            if(formatString == DefaultTemplateString)
             {
-                if(BundleTable.EnableOptimizations)
-                {
-                    return Scripts.Render(paths);
-                }
+                renderAction = path => Scripts.Render(path);
             }
-            return Renderer.GenerateOutput(formatString, paths);
+            else
+            {
+                renderAction = path => Scripts.RenderFormat(formatString, path);
+            }
+            return Renderer.GenerateOutput(formatString, turnOffOptimization, renderAction, paths);
         }
     }
 }

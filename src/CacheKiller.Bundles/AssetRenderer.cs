@@ -40,12 +40,22 @@ namespace CacheKiller.Bundles
             return assetManager;
         }
 
-        public IHtmlString GenerateOutput(string templateString, params string[] paths)
+        public IHtmlString GenerateOutput(string templateString, bool turnOffOptimization, 
+            Func<string, IHtmlString> defaultRenderer, params string[] paths)
         {
             var sb = new StringBuilder();
             foreach (var path in paths)
             {
-                sb.AppendLine(_assetRenderer.GenerateString(templateString, GetPathsForPath(path)));
+                if(!turnOffOptimization
+                    && BundleTable.EnableOptimizations 
+                    && BundleExists(path))
+                {
+                    sb.AppendLine(defaultRenderer(path).ToString()); 
+                }
+                else
+                {
+                    sb.AppendLine(_assetRenderer.GenerateString(templateString, GetPathsForPath(path)));
+                }
             }
             return new HtmlString(sb.ToString());
         }
@@ -63,6 +73,11 @@ namespace CacheKiller.Bundles
                 result.Add(path);
             }
             return result.ToArray();
+        }
+
+        private bool BundleExists(string path)
+        {
+            return BundleTable.Bundles.GetBundleFor(path) != null;
         }
 
         private IEnumerable<BundleFile> GetBundleFiles(string virtualPath)
