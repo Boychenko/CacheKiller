@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-    <metadata>
-        <id>CacheKiller.Bundles</id>
-        <version>0.1.2</version>
-        <authors>Alexander Boychenko</authors>
-        <owners>boychenko</owners>
-        <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
-        <projectUrl>https://github.com/Boychenko/CacheKiller</projectUrl>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<dependencies>
-			<dependency id='CacheKiller' version='0.1'/>
-		</dependencies>
-		<title>CacheKiller.Bundles</title>
-        <description>Usefull library to prevent caching when optimization in bundles is turned off. Also allow to turn off optimization for particular bundle</description>
-		<tags>cachekill cachekiller web bundles cache killer kill</tags>
-        <language>en-US</language>
-    </metadata>
-    <files />
+  <metadata>
+    <id>CacheKiller.Bundles</id>
+    <version>0.1.3</version>
+    <authors>Alexander Boychenko</authors>
+    <owners>boychenko</owners>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>https://github.com/Boychenko/CacheKiller</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id='CacheKiller' version='0.1'/>
+    </dependencies>
+    <title>CacheKiller.Bundles</title>
+    <description>Usefull library to prevent caching when optimization in bundles is turned off. Also allow to turn off optimization for particular bundle</description>
+    <tags>cachekill cachekiller web bundles cache killer kill</tags>
+    <language>en-US</language>
+  </metadata>
+  <files />
 </package>

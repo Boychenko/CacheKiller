@@ -31,7 +31,7 @@ namespace CacheKiller.Bundles
             {
                 if (BundleTable.EnableOptimizations)
                 {
-                    return Scripts.Render(paths);
+                    return Styles.Render(paths);
                 }
             }
             return Renderer.GenerateOutput(formatString, paths);
