@@ -28,7 +28,7 @@ Prevent bundle files to be cached in case otpimization is turned off. Also allow
 @CacheKiller.Bundles.ScriptsRenderer.Render("~/bundles/jquery")
 ```
 
-In case if you use bundles you are free to only CacheKiller.Bundles.StylesRenderer.Render and CacheKiller.Bundles.ScriptsRenderer.Render.
+In case if you use bundles you are free to use only CacheKiller.Bundles.StylesRenderer.Render and CacheKiller.Bundles.ScriptsRenderer.Render.
 ```csharp
 @CacheKiller.Bundles.StylesRenderer.Render("~/Content/bootstrap.css")
 @CacheKiller.Bundles.ScriptsRenderer.Render("~/Scripts/jquery-1.10.2.js")
