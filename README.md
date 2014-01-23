@@ -6,7 +6,7 @@ An easy way to prevent caching of js and css files by browser if they are change
 ###CacheKiller.Bundles
 Prevent bundle files to be cached in case otpimization is turned off. Also allow to turn of optimization for particular bundle.
 
-###If you are using dotless you should adopt configuration
+###If you are using [dotless](https://github.com/dotless/dotless) you should adopt configuration
 ```xml
 <dotless disableParameters="true" />
 ```
